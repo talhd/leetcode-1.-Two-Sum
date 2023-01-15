@@ -6,7 +6,6 @@ class Solution {
            if (index == '(' || index == '[' ||index == '{'){
                stack.push(index);
                continue;
-
            }else {
                if(stack.empty()){
                    return false;
