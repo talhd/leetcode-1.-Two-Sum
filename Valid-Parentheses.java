@@ -5,7 +5,6 @@ class Solution {
            char index = s.charAt(i);
            if (index == '(' || index == '[' ||index == '{'){
                stack.push(index);
-               continue;
            }else {
                if(stack.empty()){
                    return false;
